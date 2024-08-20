@@ -26,9 +26,9 @@ export default function WorkAccordion() {
         <AccordionContent>
           <div className="text-xl">
             <p className="overflow-auto">
-              Av. San Fernando 37, Col. Toriello Guerra, Tlalpan, Ciudad de
+              Av. San Fernando 37, Col. Toriello Guerra, Tlalpan,
             </p>
-            <p>México, CDMX 14050, MX.</p>
+            <p>Ciudad de México, CDMX 14050, MX.</p>
             <p>December 2021 - Present</p>
           </div>
         </AccordionContent>

@@ -16,9 +16,11 @@ export default function NextTech() {
               src={skill.src}
               height={100}
               width={100}
-              className="rounded-lg"
+              className={`${
+                (skill.key === 5 || skill.key === 6) && "filter invert"
+              } rounded-lg w-16`}
             />
-            <p className="text-3xl">{skill.name}</p>
+            <p className="text-xl md:text-3xl">{skill.name}</p>
           </CardContent>
         </Card>
       ))}

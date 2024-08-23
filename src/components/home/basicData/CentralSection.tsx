@@ -32,16 +32,13 @@ export default function CentralSection() {
           </p>
         </CardContent>
       </Card>
-      <Card className="border border-yellow-900 bg-gray-950 rounded-none h-full w-full max-w-md p-5 transition duration-500 hover:scale-110">
-        <CardContent className="flex flex-col h-full justify-center max-h-72 overflow-auto">
-          <div className="flex flex-col space-y-10">
-            <p className="text-xl">
-              {
-                "I'm thrilled to connect with fellow professionals in the tech world! My name is David, and I'm a passionate Full Stack Developer specializing in JavaScript technologies."
-              }
-            </p>
-            <Button variant="ghost">About me</Button>
-          </div>
+      <Card className="flex items-center border border-yellow-900 bg-gray-950 rounded-none h-full w-full max-w-md p-5 transition duration-500 hover:scale-110">
+        <CardContent className="flex flex-col justify-center max-h-72">
+          <p className="text-xl">
+            {
+              "I'm thrilled to connect with fellow professionals in the tech world! My name is David, and I'm a passionate Full Stack Developer specializing in JavaScript technologies."
+            }
+          </p>
         </CardContent>
       </Card>
     </div>

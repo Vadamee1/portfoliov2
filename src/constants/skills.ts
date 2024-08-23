@@ -44,50 +44,62 @@ export const SOFTSKILLS = [
 export const NEXTSKILLS = [
   {
     key: 1,
-    src: "/skills/TypeScript.png",
-    name: "Typescript",
+    src: "/skills/HTML.svg",
+    name: "HTML",
   },
   {
     key: 2,
+    src: "/skills/CSS.png",
+    name: "CSS",
+  },
+  {
+    key: 3,
     src: "/skills/TailwindCSS.png",
     name: "Tailwind",
   },
   {
-    key: 3,
-    src: "/skills/Node.png",
-    name: "Node",
-  },
-  {
     key: 4,
-    src: "/skills/Postgresql.png",
-    name: "Postgresql",
-  },
-];
-
-export const NEXTLIBRARIES = [
-  {
-    key: 1,
     src: "/skills/React.png",
     name: "React",
   },
   {
-    key: 2,
-    src: "/skills/Prisma.png",
-    name: "Prisma.io",
-  },
-  {
-    key: 3,
+    key: 5,
     src: "/skills/Shadcn.png",
     name: "Shadcn",
   },
   {
-    key: 4,
+    key: 6,
     src: "/skills/NextUi.png",
     name: "NextUI",
   },
   {
-    key: 5,
+    key: 7,
+    src: "/skills/MaterialUi.svg",
+    name: "Material UI",
+  },
+  {
+    key: 8,
+    src: "/skills/TypeScript.png",
+    name: "Typescript",
+  },
+  {
+    key: 9,
+    src: "/skills/Node.png",
+    name: "Node",
+  },
+  {
+    key: 10,
+    src: "/skills/Prisma.png",
+    name: "Prisma.io",
+  },
+  {
+    key: 11,
     src: "/skills/NextAuth.png",
     name: "NextAuth",
+  },
+  {
+    key: 12,
+    src: "/skills/Postgresql.png",
+    name: "Postgresql",
   },
 ];

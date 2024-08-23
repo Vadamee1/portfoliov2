@@ -9,7 +9,11 @@ import Image from "next/image";
 
 export default function AcademicAccordion() {
   return (
-    <Accordion type="single" collapsible className="lol-border p-5 rounded-3xl">
+    <Accordion
+      type="single"
+      collapsible
+      className="lol-border w-96 md:w-auto  p-5 rounded-3xl"
+    >
       <AccordionItem value="work">
         <AccordionTrigger className="flex gap-4">
           <Image
@@ -19,14 +23,14 @@ export default function AcademicAccordion() {
             width={70}
             className="rounded-lg"
           />
-          <div className={`${nameFont.className} text-2xl w-96`}>
+          <div className={`${nameFont.className} md:w-96 md:text-2xl`}>
             <p>UVM</p>
             <p>Universidad del Valle de México</p>
           </div>
         </AccordionTrigger>
         <AccordionContent>
-          <div className="text-xl">
-            <p className="flex">
+          <div className="md:text-xl">
+            <p className="w-full">
               Calzada de Tlalpan 3016/3058, Mexico City, Mexico.
             </p>
             <p>August 2020 - Present</p>
